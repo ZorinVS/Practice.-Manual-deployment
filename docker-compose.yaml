@@ -11,7 +11,7 @@ services:
       - db
       - redis
     env_file:
-      - ./.env
+      - .env
 
   nginx:
     build:
@@ -41,4 +41,4 @@ services:
 volumes:
   postgres_data:
   static_volume:
-  redis_volume:
+  redis_data:
